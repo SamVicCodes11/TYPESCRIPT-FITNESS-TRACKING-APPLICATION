@@ -14,7 +14,7 @@ This **Fitness Tracking App** is built with **TypeScript**, using **React** for 
 - **Animations:** Framer Motion  
 
 ## 🚀 Live Demo  
-🔗 [Visit the Website](https://your-fitness-app.com)
+🔗 [Visit the Website](https://typescript-fitness-tracking-application.vercel.app/)
 
 
 
