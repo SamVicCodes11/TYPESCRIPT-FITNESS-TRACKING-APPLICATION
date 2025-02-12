@@ -13,36 +13,41 @@ const classes: Array<ClassType> = [
   {
     name: "Weight Training Classes",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Build strength, tone muscles, and increase endurance with our expert-guided weight training sessions. Perfect for all fitness levels!",
     image: image1,
   },
   {
     name: "Yoga Classes",
+    description:
+      "Improve flexibility, reduce stress, and enhance mindfulness with our relaxing and energizing yoga sessions.",
     image: image2,
   },
   {
     name: "Ab Core Classes",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Strengthen your core with targeted exercises designed to improve stability, posture, and overall athletic performance.",
     image: image3,
   },
   {
     name: "Adventure Classes",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Take your fitness outdoors! Join our adventure classes for exciting challenges that push your limits and keep workouts fun.",
     image: image4,
   },
   {
     name: "Fitness Classes",
+    description:
+      "From cardio to strength training, our fitness classes offer a full-body workout experience tailored to your goals.",
     image: image5,
   },
   {
     name: "Training Classes",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Boost your performance with specialized training programs, combining strength, agility, and endurance techniques.",
     image: image6,
   },
 ];
+
 
 type Props = {
   setSelectedPage: (value: SelectedPage) => void;
@@ -68,10 +73,10 @@ const OurClasses = ({ setSelectedPage }: Props) => {
           <div className="md:w-3/5">
             <HText>OUR CLASSES</HText>
             <p className="py-5">
-              Fringilla a sed at suspendisse ut enim volutpat. Rhoncus vel est
-              tellus quam porttitor. Mauris velit euismod elementum arcu neque
-              facilisi. Amet semper tortor facilisis metus nibh. Rhoncus sit
-              enim mattis odio in risus nunc.
+              Push your limits with our expert-led fitness classes! Whether
+              you're into high-intensity workouts, strength training, or
+              mind-body sessions like yoga, we’ve got the perfect class for you.
+              Stay motivated, train smart, and achieve your goals!
             </p>
           </div>
         </motion.div>

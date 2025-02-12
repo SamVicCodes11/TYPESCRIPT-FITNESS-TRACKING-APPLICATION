@@ -13,21 +13,21 @@ import Benefit from "./Benefit";
 const benefits: Array<BenefitType> = [
   {
     icon: <HomeModernIcon className="h-6 w-6" />,
-    title: "State of the Art Facilities",
+    title: "State-of-the-Art Facilities",
     description:
-      "Neque adipiscing amet amet enim. Feugiat dolor enim fermentum in a in lectus pellentesque. Ullamcorper et.",
+      "Train with the best! Our gym features cutting-edge equipment, spacious workout areas, and a motivating environment for all fitness levels.",
   },
   {
     icon: <UserGroupIcon className="h-6 w-6" />,
-    title: "100's of Diverse Classes",
+    title: "Hundreds of Diverse Classes",
     description:
-      "Eu ipsum id egestas risus tempus enim semper felis quis. Nec consectetur ac venenatis facilisi est. Eget ac turpis id.",
+      "From high-intensity training to calming yoga, we offer a variety of classes to keep your workouts fresh, exciting, and results-driven.",
   },
   {
     icon: <AcademicCapIcon className="h-6 w-6" />,
-    title: "Expert and Pro Trainers",
+    title: "Expert & Professional Trainers",
     description:
-      "Fusce vestibulum aliquam ut cras. Nisl lectus egestas sapien nisl. Lacus at mi sit pellentesque. Congue parturient.",
+      "Get guidance from certified fitness professionals who are committed to helping you reach your goals with personalized support and expert advice.",
   },
 ];
 
@@ -131,18 +131,17 @@ const Benefits = ({ setSelectedPage }: Props) => {
               }}
             >
               <p className="my-5">
-                Nascetur aenean massa auctor tincidunt. Iaculis potenti amet
-                egestas ultrices consectetur adipiscing ultricies enim. Pulvinar
-                fames vitae vitae quis. Quis amet vulputate tincidunt at in
-                nulla nec. Consequat sed facilisis dui sit egestas ultrices
-                tellus. Ullamcorper arcu id pretium sapien proin integer nisl.
-                Felis orci diam odio.
+                Unlock your full potential with expert training and world-class
+                facilities. Whether you're looking to build strength, improve
+                endurance, or stay active, we provide the tools and support to
+                help you succeed. Every workout gets you one step closer to your
+                goals!
               </p>
               <p className="mb-5">
-                Fringilla a sed at suspendisse ut enim volutpat. Rhoncus vel est
-                tellus quam porttitor. Mauris velit euismod elementum arcu neque
-                facilisi. Amet semper tortor facilisis metus nibh. Rhoncus sit
-                enim mattis odio in risus nunc.
+                Join a community that motivates and inspires. With a variety of
+                classes, personalized coaching, and top-tier equipment, you’ll
+                never run out of ways to challenge yourself. Your fitness
+                journey starts here!
               </p>
             </motion.div>
 
