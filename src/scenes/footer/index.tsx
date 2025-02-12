@@ -28,8 +28,8 @@ const Footer = () => {
         <div className="mt-16 basis-1/4 md:mt-0">
           <h4 className="font-bold">Contact Us</h4>
           <p className="my-5">Need help? Contact us!</p>
-          <p className="font-bold">(333) 425-6825</p>
-          <p className="mt-2">support@evogym.com</p>
+          <p className="font-bold">+2348146557494</p>
+          <p className="mt-2">victorakpobasa2020@gmail.com</p>
         </div>
       </div>
     </footer>
