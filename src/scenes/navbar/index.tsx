@@ -26,12 +26,12 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
         <div className={`${flexBetween} mx-auto w-5/6`}>
           <div className={`${flexBetween} w-full gap-16`}>
             {/* LEFT SIDE */}
-            {/* <img alt="logo" src={Logo} /> */}
+            <img alt="logo" src={Logo} />
 
 
-            <div className="">
-              <h3 className="font-semibold text-xl primary-500">SAMVIC<span className=" text-primary-700">GYM</span></h3>
-            </div>
+            {/* <div className="">
+              <h3 className="font-semibold text-xl primary-500">SAMVIC<span className="ml-1.5 text-primary-700">CODES</span></h3>
+            </div> */}
 
             {/* RIGHT SIDE */}
             {isAboveMediumScreens ? (
