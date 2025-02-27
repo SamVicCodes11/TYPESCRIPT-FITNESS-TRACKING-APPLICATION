@@ -28,10 +28,11 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
             {/* LEFT SIDE */}
             <img alt="logo" src={Logo} />
 
-
-            {/* <div className="">
-              <h3 className="font-semibold text-xl primary-500">SAMVIC<span className="ml-1.5 text-primary-700">CODES</span></h3>
-            </div> */}
+            <div className="">
+              <h3 className="primary-500 text-xl font-semibold">
+                SAMVIC<span className="ml-1.5 text-primary-700">CODES</span>
+              </h3>
+            </div>
 
             {/* RIGHT SIDE */}
             {isAboveMediumScreens ? (
