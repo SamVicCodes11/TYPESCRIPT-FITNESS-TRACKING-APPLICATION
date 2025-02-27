@@ -154,6 +154,8 @@ const Benefits = ({ setSelectedPage }: Props) => {
               </div>
             </div>
           </div>
+
+          
         </div>
       </motion.div>
     </section>

@@ -22,7 +22,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
     const isValid = await trigger();
     if (!isValid) {
       e.preventDefault();
-    }
+    } 
   };
 
   return (
@@ -52,6 +52,8 @@ const ContactUs = ({ setSelectedPage }: Props) => {
           </p>
         </motion.div>
 
+        {/* e8a5bdfa807605332f809e5656e27c6e */}
+
         {/* FORM AND IMAGE */}
         <div className="mt-10 justify-between gap-8 md:flex">
           <motion.div
@@ -68,7 +70,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
             <form
               target="_blank"
               onSubmit={onSubmit}
-              action="https://formsubmit.co/e8a5bdfa807605332f809e5656e27c6e"
+              action="https://formsubmit.co/84e40074e893af613486cfb06dc52da8"
               method="POST"
             >
               <input
